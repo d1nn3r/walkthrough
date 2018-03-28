@@ -70,13 +70,17 @@ Nmap done: 1 IP address (1 host up) scanned in 33.39 seconds
 
 访问http://192.168.56.101可以看到界面
 
-![52223728596](C:\Users\ADMINI~1\AppData\Local\Temp\1522237285965.png)
+![1](./img/1.png)
+
+
 
 ## Flag1
 
 在contact页面右键源代码可以看到flag
 
-![52223827440](C:\Users\ADMINI~1\AppData\Local\Temp\1522238274405.png)
+![2](./img/2.png)
+
+
 
 ```
 root@kali:~# echo 'YWxsdGhlZmlsZXM='| base64 -d
